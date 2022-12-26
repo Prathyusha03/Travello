@@ -1,0 +1,30 @@
+﻿
+
+.right {
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+
+.login {
+    width: 75%;
+    height: 75%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.int_box {
+    background-color: powderblue;
+    width: 10em;
+    height: 2em;
+}
+
+.int_grp {
+    display: block;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.int_form {
+    border: 0.2em dotted brown;
+}
