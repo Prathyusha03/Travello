@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>TRAVELLO</title>
+    <link rel="stylesheet" text="text/css" href="~/css/WelcomeStyleSheet.css">
+</head>
+<body>
+    
+        <div class="main">
+
+            <ul>
+                <li class="active"><a href="../Login">Login</a></li>
+                <li><a href="/Reg">Register</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <form class="int_form" method="post">
+                <h1 style="text-align: center;text-decoration: underline;"> Login</h1>
+                <div class="int_grp">
+                    <label for="UserName">Username :</label>
+                    <input class="int_box" id="UserName" type="text" name="Username">
+                </div>
+                <div class="int_grp">
+                    <label for="password">password :</label>
+                    <input class="int_box" id="password" type="password" name="Password">
+                </div>
+                <input class="int_submit" id="Login" type="submit" value="Login">
+                <p style="margin-top : 60px;text-align:center;"> Don't have an account &nbsp; <a href="../Reg">Register</a> </p>
+
+            </form>
+        </div>
+   
+</body>
+</html>
+
